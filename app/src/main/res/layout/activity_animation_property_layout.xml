@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_marginTop="5dip"
+            android:text="Alpha(透明动画)"
+            android:onClick="onAlpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+        
+        <Button
+            android:layout_marginTop="5dip"
+            android:text="Translate(平移动画)"
+            android:onClick="onTranslate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="5dip"
+            android:text="Rotate(旋转动画)"
+            android:onClick="onRotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:layout_marginTop="5dip"
+            android:text="Scale(缩放动画)"
+            android:onClick="onScale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+<!--android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"-->
+    <ImageView
+        android:id="@+id/iv"
+        android:background="@drawable/property"
+        android:layout_width="200dip"
+        android:alpha="0.3"
+
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_height="300dip" />
+
+    <Button
+        android:layout_marginTop="5dip"
+        android:text="set(组合动画)"
+        android:onClick="onSet"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
