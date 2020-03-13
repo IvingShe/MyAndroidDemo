@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ①. 大致明确布局容器的需求，初步定义布局属性-->
+    <!--SL:CustomLayoutParams为ViewGroup子类（CustomViewGroupLayoutWithCustomLayoutParams）
+        中可以使用的自定义风格属性-->
+    <declare-styleable name="CustomLayoutParams">
+        <attr name="layout_position"><!--SL:layout_position为子view中可以使用的自定义属性名-->
+            <enum name="center" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+            <enum name="rightAndBottom" value="4" />
+        </attr>
+    </declare-styleable>
+</resources>

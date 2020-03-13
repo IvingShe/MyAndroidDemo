@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.hz.iving.viewlibrary">
+    <application>
+        <activity android:name="cn.hz.iving.viewlibrary.MyFirstCustomGroupDemoActivity"/>
+
+        <activity android:name="cn.hz.iving.viewlibrary.CustomViewGroupWithLayoutParamsLayoutDemoActivity"/>
+    </application>
+</manifest>
